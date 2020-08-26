@@ -15,6 +15,11 @@ yarn
 yarn dev
 ```
 
+
+### next step
+- [ ] copy unsplash qua
+
+
 ### next step about UI
 
 - [ ] use some material-ui : https://material-ui.com/components/avatars/

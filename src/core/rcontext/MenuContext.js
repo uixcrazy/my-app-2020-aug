@@ -12,11 +12,16 @@ export const MENU_LIST = [
     id: "dashboard",
     name: "Dashboard",
     icon: DashboardIcon,
+    url: "",
   },
   {
     id: "categories",
     name: "Categories",
     icon: CategoryIcon,
+    permissions: ["ADMIN", "READ_ONLY"],
+    children: [
+      {}
+    ]
   },
   {
     id: "articles",
@@ -71,6 +76,7 @@ export const MenuContextProvider = ({ route, children }) => {
   };
 
   return (
+    // eslint-disable-next-line react/react-in-jsx-scope
     <MenuContext.Provider value={[selected, onSelectMenu]}>
       {children}
     </MenuContext.Provider>
