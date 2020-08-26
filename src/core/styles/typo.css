@@ -1,0 +1,44 @@
+
+.txt--danger {
+  color: var(--danger);
+}
+
+.txt--info {
+  color: var(--info);
+}
+
+.txt--label {
+  color: var(--color-label);
+}
+
+.txt--placeholder {
+  color: var(--color-placeholder);
+}
+
+.txt--primary {
+  color: var(--color-primary);
+}
+
+.txt--primary-light {
+  color: var(--color-primary-lighter);
+}
+
+.btn-link {
+  color: #3273dc;
+  background: transparent;
+}
+
+.btn-link:hover {
+  color: #276cda;
+  text-decoration: underline;
+}
+
+.required {
+  color: var(--danger);
+  font-size: 1.25rem;
+  font-family: sans-serif;
+
+  position: absolute;
+  margin-left: 5px;
+  margin-top: -3px;
+}

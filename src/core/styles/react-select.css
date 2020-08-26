@@ -1,0 +1,41 @@
+/**
+ * React Select
+ * ============
+ * Created by Jed Watson and Joss Mackison for KeystoneJS, http://www.keystonejs.com/
+ * https://twitter.com/jedwatson https://twitter.com/jossmackison https://twitter.com/keystonejs
+ * MIT License: https://github.com/keystonejs/react-select
+*/
+
+.bsselect .select__control {
+  height: 36px;
+  line-height: 36px;
+  border: solid 1px var(--color-border);
+  position: relative;
+  transition: 100ms linear all;
+  background: #fff;
+  user-select: none;
+  border-radius: 2px;
+  background-color: var(--white);
+  min-height: 36px;
+}
+.bsselect .select__control:hover {
+  border: solid 1px #d9e4ef;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+}
+.bsselect .select__placeholder {
+  color: var(--color-placeholder);
+  height: 36px;
+  line-height: 39px;
+}
+
+.bsselect .select__value-container {
+  height: 36px;
+}
+.bsselect .select__value-container > div {
+  margin: 0;
+  padding: 0;
+}
+
+.bsselect .select__value-container > div.select__single-value {
+  margin-top: 3px;
+}

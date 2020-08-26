@@ -1,0 +1,66 @@
+export default {
+  card: {
+    backgroundColor: "white",
+    height: "450px",
+    width: "310px",
+    transform: "scale(0.7)",
+    borderRadius: "8px",
+    boxShadow: "0 0 80px 1px rgba(220,220,220,0.8)",
+  },
+  photo: {
+    height: "9.5rem",
+    width: "9.5rem",
+    overflow: 'hidden',
+    position: 'absolute',
+    top: '-4.75rem',
+    left: 'calc(50% - 4.75rem)',
+    borderRadius: "50%",
+    "& img": {
+      width: "100%",
+      height: "100%",
+    },
+  },
+  info: {
+    height: "100%",
+    width: "100%",
+    display: "flex",
+    alignItems: "center",
+    paddingTop: '6rem',
+    flexDirection: 'column',
+    textAlign: 'center',
+    padding: '0 .5rem',
+  },
+  name: {
+    fontSize: "2.1875rem",
+    color: "#f79f08",
+    letterSpacing: "2px",
+    fontWeight: "bold",
+    height: "5.5rem",
+    flex: '0 1 auto',
+  },
+  prof: {
+    fontSize: "1.5625rem",
+    color: "#555",
+  },
+  divider: {
+    backgroundColor: "#949594",
+    height: "1.5px",
+    width: "3.125rem",
+    margin: ".5rem auto .5rem auto"
+  },
+  bio: {
+    color: "#949594",
+    textAlign: "center",
+    fontSize: "1.125rem",
+    lineHeight: "1.5",
+  },
+  btn: {
+    backgroundColor: "#f79f08",
+    border: "none",
+    fontSize: "1.25rem",
+    padding: "13px 25px",
+    color: "white",
+    marginTop: 'auto',
+    marginBottom: '2rem',
+  },
+};

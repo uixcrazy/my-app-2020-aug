@@ -1,0 +1,64 @@
+.noselect {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.svg-icon-with-txt {
+  display: flex;
+}
+
+.svg-icon-with-txt svg {
+  font-size: 1em;
+}
+
+.c-pointer {
+  cursor: pointer;
+}
+
+.mt-0 {
+  /* !important */
+  margin-top: 0;
+}
+
+.mt--5 {
+  margin-top: -5px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
